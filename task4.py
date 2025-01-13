@@ -13,6 +13,9 @@ Create a function that reads the specific value for a specific level and an armo
 """
 
 def target(lvl,ac):
+    numbers = []
+    lines = [line.strip() for line in open('task4.txt')]
+    numbers.append(list(map(int, line)))
     return
 
 
